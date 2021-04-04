@@ -2,6 +2,7 @@
 import os
 
 import configparser
+from torch._six import FileNotFoundError
 
 
 class Config(object):
